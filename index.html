@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="description" content="weather" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <meta
+      name="keywords"
+      content="weather
+weather"
+    />
+    <!-- <meta name='image' content='./img/' /> -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="weather
+weather"
+    />
+    <meta
+      property="og:description"
+      content="weather
+weather"
+    />
+    <!-- <meta property='og:image' content='./img/' /> -->
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="weather
+weather"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <!-- <meta name='msapplication-TileImage' content='./img/' /> -->
+    <link rel="preconnect" href="https://fonts.google.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>weather app</title>
+  </head>
+  <body>
+    <div class="weather" id="weather">
+      <h1>Weather App</h1>
+
+      <div class="weather__container">
+        <div class="weather__search">
+          <label for="city-input">City:</label>
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Enter your City/Country"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="weather__data">
+          <div class="weather__city" id="city"></div>
+          <div class="weather__temperature" id="temperature"></div>
+          <div class="weather__conditions" id="conditions"></div>
+          <div class="weather__date" id="date"></div>
+          <div class="weather__time" id="time"></div>
+        </div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="main.js"></script>
+  </body>
+</html>
